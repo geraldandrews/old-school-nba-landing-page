@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>NBA.com TV Commercials 2000</title>
+</head>
+<body>
+    <div class="background"></div>
+    <div class="main-container"> 
+        <h1>NBA Old School Commercials</h1>
+        <div class="player">
+            <video controls>
+                <source src="video.mp4" type="video/mp4">
+                <source src="video.mp4" type="video/webm">
+                <p>
+                    Your browser doesn't support HTML video. Here is a <a href="">link to the video</a> instead.
+                </p>
+            </video>
+        </div>
+
+        <div class="controls-container">
+            <div class="progress-container">
+                <div class="progress-fill"></div>
+            </div>
+            <div class="controls">
+                <button class="play" data-icon="P" aria-label="play pause toggle"></button>
+                <button class="stop" data-icon="S" aria-label="stop"></button>
+                <div class="timer">
+                    <div>
+                    <span aria-label="timer">0:00:00</span>
+                    </div>
+                </div>
+                <button class="rwd" data-icon="B" aria-label="rewind"></button>
+                <button class="fwd" data-icon="F" aria-label="fast forward"></button>
+                <button class="full-screen" data-icon="q" aria-label="full screen"></button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
