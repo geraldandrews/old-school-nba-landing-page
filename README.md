@@ -1,5 +1,5 @@
 # Old School NBA Landing Page
-### Live Site: 
+### Live Site: https://geraldandrews.github.io/Old-School-NBA-Landing-Page/
 
 ### Project Description: Personal
 ### Programs Used: HTML, CSS, JavaScript, and Microsoft Clipchamp
